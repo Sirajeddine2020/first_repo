@@ -9,5 +9,98 @@ $ git status
 puis
 $ git add . (il faut le point précédé d'un espace, sans le point ou sans l'espace ça ne marche pas)
 
+$ git rm --cached [1.txt]
+
+$ git commit -m 'first commit'
+$ git config --global user.name "Sirajeddine2020"
+$ git config --global user.email "sirajbouasker@gmail.com"
+
+Alias
+git config alias.KEYBOARD_SHORTCUT COMMAND
+
+Global Alias
+global configuration, add the --global command after git config. For example, to alias git i to git init globally, you would type git config --global alias.i init.
+
+j'ai choisi:
+$ git config --global alias.i init
 
 
+$ git config --global alias.st status
+
+
+$ git config --global alias.dd add
+
+
+GitHub
+
+
+asus@LAPTOP-894UABSL MINGW64 ~/Desktop/GOMYCODE/learn_git (master)
+$ echo "first_repo" >> README.md
+
+asus@LAPTOP-894UABSL MINGW64 ~/Desktop/GOMYCODE/learn_git (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/asus/Desktop/GOMYCODE/learn_git/.git/
+
+asus@LAPTOP-894UABSL MINGW64 ~/Desktop/GOMYCODE/learn_git (master)
+$ git add README.md
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+asus@LAPTOP-894UABSL MINGW64 ~/Desktop/GOMYCODE/learn_git (master)
+$ git commit -m "first commit"
+[master 758a31e] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+asus@LAPTOP-894UABSL MINGW64 ~/Desktop/GOMYCODE/learn_git (master)
+$ git remote add origin https://github.com/Sirajeddine2020/first_repo.git
+
+$ git push -u origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+reordered commands
+git init
+
+git add .
+
+git status
+
+git commit -m 'first commit'
+
+git remote add origin YOUR_REMOTE_URL
+
+git push -u origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://stackoverflow.com/questions/2047465/how-can-i-delete-a-file-from-a-git-repository#:~:text=But%2C%20if%20your%20file%20is%20already%20on%20GitHub%2C,and%20that%20will%20delete%20the%20file%20locally%20too.
