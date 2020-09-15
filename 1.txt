@@ -60,6 +60,36 @@ $ git push -u origin master
 
 
 
+1- creation d'une repo sur github
+2- ouvrez votre projet et y acceder avec git bash
+
+
+3- git init
+
+
+4- git add .
+
+
+
+5-git commit -m "first commit"
+
+
+6- git remote add " lien de la repo "
+
+
+7-git push -u origin master
+
+
+Hethom les commandes tal9ahom fel github ki tasna3 el repo
+
+
+awel marra bech y9ollek a3mel login
+
+
+ta3mel el login mte3ek c'est guidé
+
+
+puis twali tpushi directement man8ir mata3mel login a chaque fois
 
 
 
