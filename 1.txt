@@ -30,6 +30,7 @@ $ git config --global alias.st status
 
 $ git config --global alias.dd add
 
+$ git config --global alias.cm commit -m 
 
 GitHub
 
@@ -101,6 +102,6 @@ git push -u origin master
 
 
 
-
-
+https://github.blog/2013-07-04-deleting-files-on-github/
+https://docs.github.com/en/enterprise/2.16/user/github/administering-a-repository/deleting-a-repository
 https://stackoverflow.com/questions/2047465/how-can-i-delete-a-file-from-a-git-repository#:~:text=But%2C%20if%20your%20file%20is%20already%20on%20GitHub%2C,and%20that%20will%20delete%20the%20file%20locally%20too.
