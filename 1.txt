@@ -1,0 +1,13 @@
+$ cd ~/Desktop/GOMYCODE/learn_git/
+$ git init
+
+puis j'ai ajouté le fichier Nouveau document texte.txt dans ce dossier learn_git
+
+puis
+$ git status
+
+puis
+$ git add . (il faut le point précédé d'un espace, sans le point ou sans l'espace ça ne marche pas)
+
+
+
